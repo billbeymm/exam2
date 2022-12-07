@@ -1,0 +1,49 @@
+.middle-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 223px;
+  margin-top: 123px;
+}
+
+[class$="block"] {
+  display: flex;
+  flex-direction: row;
+  gap: 206px;
+}
+
+.topic {
+  font-size: 36px;
+  font-weight: 500;
+  color: #091133;
+}
+
+.under-topic {
+  font-style: 16px;
+  width: 445px;
+  color: #6F7CB2;
+}
+
+.block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button-under-topic {
+  height: 32px;
+  width: 150px;
+  border-radius: 2px;
+  background-color: #111B47;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.button-under-topic:active {
+  transform: scale(1.1);
+}
