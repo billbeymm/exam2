@@ -28,7 +28,11 @@
 
 .content-block {
     width: 540px;
-    height: calc(204px + 138px +80px);
+    height: calc(204px + 138px + 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
 }
 
 .content-hero {
