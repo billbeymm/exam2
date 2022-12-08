@@ -4,9 +4,6 @@
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: contain;
-    object-fit: cover;
-
-    height: 100vh;
 }
 
 .header__inner {
@@ -20,16 +17,15 @@
     display: flex;
     list-style: none;
 }
-.header__nav > li {
+
+.header__nav > a {
     margin-right: 60px;
-}
-.header__nav > li:last-child {
-    margin-right: 0;
-}
-.header__nav > li > a {
     font-size: 14px;
     color: #505F98;
     text-decoration: none;
+}
+.header__nav > a:last-child {
+    margin-right: 0;
 }
 
 .header__logo {
@@ -51,6 +47,10 @@
     font-size: 12px;
     font-weight: 500;
 }
+.header__inner > img {
+    display: none;
+}
+
 /* ========Hero Styles========== */
 .header__hero {
     display: flex;
@@ -111,4 +111,58 @@
 .header-btn-secondary:hover {
     background-color: #273880;
     color: #fff;
+}
+
+/*================iPhone 8 adaptive=============*/
+
+@media screen and (max-width: 375px) {
+    /*=========header styles==============*/
+    .header {
+        background-image: url('../images/phone-bg.png');
+        background-position-y: 10%;
+        background-position-x: center;
+        background-size: 300px;
+    }
+
+    .header__nav, 
+    .header-btn {
+        display: none;
+    }
+
+    .header__logo {
+        font-size: 26px;
+        padding-left: 16px;
+    }
+    .header__inner > img {
+        display: block;
+        padding-right: 19px;
+    }
+    /*============hero styles============ */
+    .header__toPhone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-inner {
+        width: 343px;
+        margin-top: 70%;
+        text-align: center;
+    }
+    .hero-inner > h2 {
+        font-size: 30px;
+    }
+    .hero-first_text {
+        display: none;
+    }
+    .hero-text {
+        line-height: 30px;
+    }
+    .header-btn-primery {
+        margin-right: 0;
+        margin-top: 26px;
+    }
+    .header-btn-secondary{
+        margin-top: 13px;
+    }
 }
