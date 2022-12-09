@@ -83,4 +83,104 @@
     font-size: 12px;
     color: #5D6970;;
 }
+
+/*================iPhone 8 adaptive=============*/
+
+@media screen and (max-width: 375px) {
+    .content-container {
+        height: 983px;
+        background-color: #9CA7DF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 32px 16px;
+    }
+
+    .content-container > img {
+        width: 300px;
+        height: 290.56px;
+        order: -1;
+
+    }
+
+    .content-title {
+        font-weight: 500;
+        font-size: 26px;
+        color: #FFFFFF;
+
+    }
+
+    .content-text {
+        width: 343px;
+        height: 218px;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 26px
+    }
+
+    .container-inner {
+        width: 343px;
+        height: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .container-title {
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        height: 26px;
+    }
+
+    .mini-text {
+        height: 36px;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .container-inner > .shape path {
+        fill: #FFFFFF;
+        width: 36px;
+        height: 36px;
+    }
+
+    .mini-content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 260px;
+        width: 100%;
+    }
+
+    .content {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .content-hero {
+        width: 100%;
+        height: 282px;
+    }
+
+    .content-block {
+        height: calc(482px + 36px + 48px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container {
+        width: 375px;
+    }
+}
+
 /* ======nurels part end======= */
