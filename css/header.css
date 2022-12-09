@@ -115,7 +115,7 @@
 
 /*================iPhone 8 adaptive=============*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     /*=========header styles==============*/
     .header {
         background-image: url('../images/phone-bg.png');

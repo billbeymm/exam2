@@ -39,3 +39,25 @@
   color: #6F7CB2;
   margin-top: 61px;
 }
+
+@media screen and (max-width: 376px) {
+  .last-container {
+    text-align: center;
+  }
+  .text-last-con {
+    width: 343px;
+  }
+ .last-container > span {
+    font-size: 31px;
+  }
+  .cost {
+    font-size: 80px;
+  }
+  .under-cost {
+    margin-top: 31px;
+  }
+  .last-text {
+    margin-top: 9px;
+  }
+  
+}
