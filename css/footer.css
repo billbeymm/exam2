@@ -73,6 +73,31 @@
 }
 
 @media screen and (max-width: 376px) {
+
+  .first-floor {
+    position: relative;
+    margin: 0 16px;
+    padding-bottom: 35px;
+  }
+  .first-floor > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 35px 0 0 16px;
+  }
+  .first-floor > p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 35px 16px 7px 0;
+  }
+  .button-footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 66px 16px 0 0;
+  }
+
   .second-floor {
     flex-direction: column;
     gap: 57px;
